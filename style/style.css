@@ -1,0 +1,105 @@
+
+
+.sub-container{
+    padding: 10px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../convention-center/icons/menu-2\ 1.svg);
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.carousel-inner img{
+  height: 450px;
+
+}
+
+/* .col-sm-3{
+    width: 75%;
+    margin: 40px auto;
+} */
+.carousel-caption{
+    width:400px;
+    margin: auto;
+}
+
+.position-toast{
+    position: fixed;
+    right: 28px;
+    bottom: 220px;
+}
+
+.toast{
+    width: 250px;
+    border-left: 4px solid #0000ff;
+}
+
+.card-box i{
+     /* color: #5243C2; */
+    background: rgba(82, 67, 194, 0.103693); 
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 0px 6px 5px 5px;
+    margin-right: 10px;
+}
+
+
+
+.btn-button button{
+    background: #FEF5FA;
+    color:#3F87F5 ;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+.card-box{
+    padding: 20px 5px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+.card-box:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    transform: translateY(-40px);
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25); 
+}
+
+.position-badge {
+    position: absolute;
+    font-size: 15px;
+    left: 80%;
+    top: 0;
+}
+
+
+.Happy-Clients .card{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 0px;
+}
+
+.Happy-Clients .card p{
+    color: #6C6C6C;
+}
+
+/* accordion-button */
+.accordion p{
+    color: #6C6C6C;
+}
